@@ -1,5 +1,6 @@
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
 
 
 SECRET_KEY = 'psqwvm4d=+b&l%$qr8ns@eigr6plhiz#r+x+osazc*cwys-c=f'
@@ -58,3 +59,6 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
+TEMPLATE_DIRS = (
+    TEMPLATE_PATH,
+    )
