@@ -58,7 +58,3 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
-TEMPLATE_DIRS = (
-      '/root/hackbig/templates',)
-STATICFILES_DIRS = (
-  '/root/hackbig/static',)
